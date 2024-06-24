@@ -1,6 +1,6 @@
 # Pixio Clone
 
-To test out my skills I decided to build the mobile design for web app [https://pixio.dexignzone.com/#pages](Pixio Clone)
+To test out my skills I decided to build the mobile design for web app [Pixio Clone](https://pixio.dexignzone.com/#pages)
 
 
 ## OPEN  POSITIONS
@@ -9,6 +9,7 @@ careers@jambo.cloud
 
 <!-- sign up users -->
 
+```
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 const auth = getAuth();
@@ -57,3 +58,4 @@ onAuthStateChanged(auth, (user) => {
     // ...
   }
 });
+```
